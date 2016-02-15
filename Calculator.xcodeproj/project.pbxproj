@@ -15,6 +15,7 @@
 		D9053BE41C35EC3A00C7A204 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9053BE31C35EC3A00C7A204 /* CalculatorTests.swift */; };
 		D9053BEF1C35EC3A00C7A204 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9053BEE1C35EC3A00C7A204 /* CalculatorUITests.swift */; };
 		D99DD5061C7148F200995869 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99DD5051C7148F200995869 /* CalculatorBrain.swift */; };
+		F00DE5201C721ACE006FE11D /* MyBrainTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DE51F1C721ACE006FE11D /* MyBrainTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D9053BEE1C35EC3A00C7A204 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		D9053BF01C35EC3A00C7A204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99DD5051C7148F200995869 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		F00DE51F1C721ACE006FE11D /* MyBrainTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBrainTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				D9053BE31C35EC3A00C7A204 /* CalculatorTests.swift */,
 				D9053BE51C35EC3A00C7A204 /* Info.plist */,
+				F00DE51F1C721ACE006FE11D /* MyBrainTest.swift */,
 			);
 			path = CalculatorTests;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00DE5201C721ACE006FE11D /* MyBrainTest.swift in Sources */,
 				D9053BE41C35EC3A00C7A204 /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +410,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bmiller.luther.edu.Calculator;
@@ -420,6 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bmiller.luther.edu.Calculator;
